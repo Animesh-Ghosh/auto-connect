@@ -1,0 +1,13 @@
+{
+	"manifest_version": 3,
+	"name": "Auto-Connect",
+	"description": "Automated LinkedIn Connection requests for lazy people :P.",
+	"version": "0.0.1",
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"background": {
+		"service_worker": "background.js"
+	},
+	"permissions": ["declarativeContent", "activeTab", "scripting"]
+}
