@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" type="text/css" href="popup.css">
 </head>
 <body>
-  <p>We are browsing LinkedIn!</p>
+  <small>We are browsing LinkedIn!</small>
+  <!-- Not saving connection count requests in the extension's storage -->
+  <p><strong>Connection Requests Sent: </strong><span id="connection-count">0</span></p>
   <button id="auto-connect">Start Auto-Connecting</button>
   <script type="text/javascript" src="popup.js"></script>
 </body>

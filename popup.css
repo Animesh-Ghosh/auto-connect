@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  width: 200px;
+}
+
+#auto-connect {
+  padding: 5px;
+}
